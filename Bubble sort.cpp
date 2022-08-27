@@ -10,7 +10,7 @@
 using namespace std;
 
     /*
-        Let's start with simplist one of them the 'Selection Sort algorithm'
+        Let's start with simplist one of them the 'Bubble Sort algorithm'
 
         this algorithm is so easy and there is no thinking
         You just decide you need it to be sorted ASC? or DESC?
@@ -25,7 +25,7 @@ using namespace std;
     */
 
 // Define the function of selection sort.
-void SelectionSort(int arr[], int size) 
+void BubbleSort(int arr[], int size) 
 {
     for (int counter = 0; counter < size; counter++)
     {
@@ -44,7 +44,7 @@ int main()
     fastread();
 
     int arr[7] = { 4,2,5,1,2,7,2 };
-    SelectionSort(arr, 7);
+    BubbleSort(arr, 7);
 
     for (int i = 0; i < 7; i++)
         cout << arr[i] << " ";
